@@ -1,0 +1,3 @@
+package com.ei.task6.composite;
+import java.util.ArrayList; import java.util.List;
+public class Room implements Component { private final String name; private final int capacity; private final List<String> devices = new ArrayList<>(); public Room(String name,int capacity){ this.name=name; this.capacity=capacity; } public void addDevice(String id){ devices.add(id); } @Override public String getStatus(){ return "Room " + name + " cap=" + capacity + " devs=" + devices.size(); } @Override public void turnOffDevices(){ devices.clear(); } @Override public int getCapacity(){ return capacity; } @Override public String getName(){ return name; } }

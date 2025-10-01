@@ -1,0 +1,3 @@
+package com.ei.task6.composite;
+import java.util.ArrayList; import java.util.List;
+public class Office implements Component { private final String name; private final List<Floor> floors = new ArrayList<>(); public Office(String name){ this.name=name; } public void addFloor(Floor f){ floors.add(f); } @Override public String getStatus(){ StringBuilder sb=new StringBuilder(); for(Floor f: floors) sb.append(f.getStatus()); return sb.toString(); } @Override public void turnOffDevices(){ for(Floor f: floors) f.turnOffDevices(); } @Override public int getCapacity(){ int s=0; for(Floor f: floors) s+=f.getCapacity(); return s; } @Override public String getName(){ return name; } }

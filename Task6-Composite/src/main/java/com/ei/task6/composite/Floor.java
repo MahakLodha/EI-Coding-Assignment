@@ -1,0 +1,3 @@
+package com.ei.task6.composite;
+import java.util.ArrayList; import java.util.List;
+public class Floor implements Component { private final String name; private final List<Component> children = new ArrayList<>(); public Floor(String name){ this.name=name; } public void add(Component c){ children.add(c); } @Override public String getStatus(){ StringBuilder sb=new StringBuilder(); for(Component c: children) sb.append(c.getStatus()).append("\n"); return sb.toString(); } @Override public void turnOffDevices(){ for(Component c: children) c.turnOffDevices(); } @Override public int getCapacity(){ int s=0; for(Component c: children) s+=c.getCapacity(); return s; } @Override public String getName(){ return name; } }

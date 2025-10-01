@@ -1,0 +1,1 @@
+package com.ei.task3.factory; public class Light implements Device{ private final String id; public Light(String id){this.id=id;} @Override public void operate(){ System.out.println("Light " + id + " on"); } @Override public String getId(){return id;} }
