@@ -26,3 +26,6 @@ Book and cancel rooms via commands.
 Undo last operation.
 
 Extendable for more booking commands.
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/e9517a8e-8632-4e90-a940-28ff1d911bce" />
+
