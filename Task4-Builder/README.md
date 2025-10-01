@@ -23,3 +23,5 @@ Features
 Extendable to add new notification types easily.
 
 Decoupled object creation.
+
+<img width="438" height="600" alt="image" src="https://github.com/user-attachments/assets/14c07f2d-ab16-4172-9c48-1cfd533c603e" />
