@@ -21,3 +21,5 @@ Thread-safe singleton with lazy initialization.
 Access config values globally.
 
 Change settings at runtime.
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/e97cafba-204e-4c2d-b7c6-e6a09e4ea623" />
