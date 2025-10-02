@@ -39,6 +39,14 @@ Factory Method → DeviceFactory,
 Command → BookRoomCommand,
 Observer-like logic → OccupancySensor,
 Provides a CLI interface to control devices, manage rooms, and auto-release bookings.
+Run the system:
+
+cd MiniProject-SmartOffice
+mvn clean compile exec:java -Dexec.mainClass="com.ei.office.SmartOfficeSystem"
+
+Sample CLI menu:
+
+1) status   2) on   3) off   4) occ   5) exit
 
 -> Requirements:
 
