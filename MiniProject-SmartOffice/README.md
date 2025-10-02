@@ -39,3 +39,5 @@ Book and auto-release rooms.
 Toggle occupancy sensors.
 
 CLI interface with menu-driven options.
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6ef6eaf5-985f-4cf8-840b-28ef4fefaade" />
